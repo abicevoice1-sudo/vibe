@@ -85,6 +85,7 @@ npx -y abicevoice1-sudo/vibe <any-of-these>
 
 | Repo | Stack | What to expect |
 |---|---|---|
+| `abicevoice1-sudo/vibe-demo` | Node | the 10-line app — running in ~20s, guaranteed |
 | `hoppscotch/hoppscotch` | Node (pnpm) | full API client app, standard layout |
 | `calcom/cal.com` | Node (yarn monorepo) | boots, then tells you exactly which env keys it needs |
 | `open-webui/open-webui` | Python | backend via pip |
