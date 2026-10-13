@@ -16,28 +16,9 @@ That's the whole thing. Vibe shallow-clones the repo, sniffs the stack, installs
 
 ## 👀 Watch it work
 
-Real session, real timer — a plain Express app, from URL to running:
+Real session, real timer — the 10-line [demo app](https://github.com/abicevoice1-sudo/vibe-demo), from URL to serving:
 
-```
-$ npx -y abicevoice1-sudo/vibe https://github.com/acme/todo-app
-
-vibe v0.1.0 — zero-touch execution engine
-Target: https://github.com/acme/todo-app
-✔ Working copy at /home/you/.vibe/runs/todo-app-1791857707005
-
-Detected  Node.js
-Command   npm start
-  [install] added 68 packages in 2s
-✔ npm install
-
-Starting: npm start  (PORT=3499)
-  [app] > todo-app@1.0.0 start
-  [app] > node index.js
-  [app] fixture listening on 3499
-
-  🚀 Running at http://localhost:3499
-  Press Ctrl+C to stop.
-```
+![Vibe demo: one command, running app in seconds](demo.svg)
 
 ## 🧠 What it actually does
 
