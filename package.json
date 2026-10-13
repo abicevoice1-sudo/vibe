@@ -30,7 +30,7 @@
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build",
-    "test": "npm run build && node --test \"dist/test/*.test.js\"",
+    "test": "npm run build && node dist/test/run-all.js",
     "prepare": "npm run build"
   },
   "version": "0.1.0"
